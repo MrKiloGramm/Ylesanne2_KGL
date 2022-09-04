@@ -1,0 +1,82 @@
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+header h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-style: italic;
+}
+
+body {
+    background-color: white;
+}
+
+main div img {
+    width: 100%;
+    height: auto;
+}
+
+body main section {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav ul {
+
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+}
+
+header nav ul li {
+
+    display: inline-block;
+    padding: 16px 16px;    
+}
+
+header nav ul li a  {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #172029;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -moz-flex;
+    -moz-flex-flow: row wrap;
+    justify-content: center;
+    -o-flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+
+    margin: 30px;
+    position: relative;
+    text-align: center;
+
+    -webkit-flex-basis: 300px;
+    -moz-flex-basis: 300px;
+    flex-basis: 300px;
+} 
+
+
+footer {
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    background-color: #172029;
+    margin-top: 20px;
+    overflow: hidden;
+}
