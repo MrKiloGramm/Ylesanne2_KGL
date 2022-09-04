@@ -1,3 +1,13 @@
+.font {
+    font-family: "Open Sans", sans-serif;
+}
+
+.font_reg {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 header h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -22,7 +32,17 @@ main div img {
 body main section {
     display: flex;
     justify-content: space-between;
+}
 
+body main section img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.p {
+    width: 50%;
+    float: right;
 }
 
 header nav ul {
@@ -72,6 +92,10 @@ header nav ul li a  {
     flex-basis: 300px;
 } 
 
+body main section a div img {
+    border-radius: 100%;
+}
+
 
 footer {
     width: calc(100%-80px);
@@ -79,4 +103,27 @@ footer {
     background-color: #172029;
     margin-top: 20px;
     overflow: hidden;
+}
+
+footer ul li p {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer-sm {
+
+    width: 32px;
+    float: right;
+}
+
+.footer-sm img {
+    
+    width: 100%;
+    margin-bottom: 10px;
 }
